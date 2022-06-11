@@ -1,0 +1,20 @@
+[2022-06-11 09:55:31] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:207)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(132): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(119): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(702): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->log()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(367): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#6 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2022-06-11 09:55:31] laravel.ERROR: Unable to load the "app" configuration file. {"exception":"[object] (Exception(code: 0): Unable to load the \"app\" configuration file. at /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php:68)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(239): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
