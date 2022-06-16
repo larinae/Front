@@ -34,6 +34,17 @@
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     ),
   ),
+  'rcrowe/twigbridge' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'TwigBridge\\ServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Twig' => 'TwigBridge\\Facade\\Twig',
+    ),
+  ),
   'spatie/laravel-ignition' => 
   array (
     'providers' => 
