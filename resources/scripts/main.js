@@ -1,3 +1,5 @@
-require('./bootstrap');
+import './uikit.js';
 
-console.log('hello');
+console.log('Hello world!');
+
+import './swiper'; 
